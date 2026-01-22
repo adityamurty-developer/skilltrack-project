@@ -29,4 +29,4 @@ SkillTrack is a web platform that guides users on skill development, trending te
 Helps students make data-driven career decisions, reduces confusion, and improves employability.
 
 ## Live Demo
-[Live Demo Link](https://USERNAME.github.io/skilltrack/)
+[Live Demo Link](https://adityamurty-developer.github.io/skilltrack-project/)

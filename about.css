@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 80px;
+  background: #ffffff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.nav-links a {
+  margin: 0 18px;
+  text-decoration: none;
+  color: #334155;
+  font-weight: 500;
+}
+
+.nav-links .active {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.nav-actions button {
+  margin-left: 10px;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #c7d2fe;
+  color: #2563eb;
+  padding: 10px 18px;
+  border-radius: 8px;
+}
+
+/* ================= ABOUT HERO ================= */
+.about-hero {
+  min-height: 85vh;
+  padding: 120px 80px;
+
+  background-image:
+    linear-gradient(
+      rgba(15, 23, 42, 0.2),
+      rgba(15, 23, 42, 0.2)
+    ),
+    url("assets/bg/bg-about.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
+/* white content card (EXACT SAME AS HOME) */
+.about-hero-text {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 38px 56px;     /* 👈 vertical kam, horizontal zyada */
+  border-radius: 20px;
+
+  max-width: 760px;      /* 👈 width clearly bada */
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.18);
+}
+
+
+.about-hero-text h1 {
+  font-size: 52px;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+.about-hero-text p {
+  color: #334155;
+  font-weight: 500;
+  line-height: 1.75;
+  margin-bottom: 18px;
+}
+
+
+/* ================= CONTENT ================= */
+.about-wrapper {
+  padding: 50px 80px 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.about-card {
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 14px 35px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 50px rgba(0,0,0,0.12);
+}
+
+.card-icon {
+  width: 48px;
+  height: 48px;
+  background: #eef2ff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.card-icon i {
+  color: #2563eb;
+  font-size: 20px;
+}
+
+.about-card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  font-size: 15.5px;
+  color: #334155;
+  line-height: 1.75;
+}
+
+/* ================= TEAM ================= */
+.team-list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.team-list li {
+  margin-bottom: 18px;
+  position: relative;
+  padding-left: 18px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #2563eb;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+
+.arrow {
+  margin-left: 12px;
+  margin-top: 4px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* LINKS */
+.about-card a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.about-card a:hover {
+  text-decoration: underline;
+}

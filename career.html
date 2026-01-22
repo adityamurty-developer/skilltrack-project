@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SkillTrack – Career Skills</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="career.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <h2 class="logo">SkillTrack</h2>
+
+  <nav class="nav-links">
+    <a href="home.html">Home</a>
+    <a href="career.html" class="active">Career Skills</a>
+    <a href="trending.html" class="active">Trending Skills</a>
+    <a href="about.html" class="active">About</a>
+  </nav>
+
+  <div class="nav-actions">
+    <button class="btn-outline">Sign in</button>
+    <button class="btn-primary">Sign Up</button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="career-hero">
+  <div class="hero-overlay">
+    <h1>Career Skills</h1>
+    <p>Choose a skill path and start building industry-ready expertise.</p>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="skills-section">
+  <div class="skills-grid">
+
+    <!-- WEB DEVELOPMENT -->
+    <a href="skill.html?skill=web" class="skill-card">
+      <img src="assets/skills/web-dev.png" alt="Web Dev">
+      <span>Web Development</span>
+      <span class="arrow">›</span>
+    </a>
+
+    <!-- MERN STACK -->
+    <a href="skill.html?skill=mern" class="skill-card">
+      <img src="assets/skills/mern.png" alt="MERN">
+      <span>MERN Stack</span>
+      <span class="arrow">›</span>
+    </a>
+
+    <!-- FULL STACK -->
+    <a href="skill.html?skill=fullstack" class="skill-card">
+      <img src="assets/skills/full-stack.png" alt="Full Stack">
+      <span>Full Stack</span>
+      <span class="arrow">›</span>
+    </a>
+
+    <!-- FRONTEND -->
+    <a href="skill.html?skill=frontend" class="skill-card">
+      <img src="assets/skills/frontend.png" class="big-logo" alt="Frontend">
+      <span>Frontend</span>
+      <span class="arrow">›</span>
+    </a>
+
+    <!-- BACKEND -->
+    <a href="skill.html?skill=backend" class="skill-card">
+      <img src="assets/skills/backend.png" alt="Backend">
+      <span>Backend</span>
+      <span class="arrow">›</span>
+    </a>
+
+    <!-- DATA ANALYST -->
+    <a href="skill.html?skill=data" class="skill-card">
+      <img src="assets/skills/data-analyst.png" class="big-logo" alt="Data Analyst">
+      <span>Data Analyst</span>
+      <span class="arrow">›</span>
+    </a>
+
+  </div>
+</section>
+
+
+<!-- ================= SEARCH ================= -->
+<section class="search-section">
+  <h2>Search Your Skills</h2>
+
+  <input type="text" list="skills-list" placeholder="Search skills...">
+
+  <datalist id="skills-list">
+    <option value="Web Development">
+    <option value="MERN Stack">
+    <option value="Frontend Development">
+    <option value="Backend Development">
+    <option value="AI / ML">
+    <option value="App Development">
+    <option value="iOS Development">
+    <option value="Data Analyst">
+    <option value="Full Stack Development">
+    <option value="UI / UX Design">
+  </datalist>
+
+  <div class="skills-slider">
+    <span>Web Dev</span>
+    <span>MERN</span>
+    <span>Frontend</span>
+    <span>Backend</span>
+    <span>AI / ML</span>
+    <span>App Dev</span>
+    <span>iOS Dev</span>
+    <span>Data Analyst</span>
+    <span>Full Stack</span>
+    <span>UI / UX</span>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <p>© 2026 SkillTrack • info@skilltrack.com</p>
+</footer>
+
+</body>
+</html>

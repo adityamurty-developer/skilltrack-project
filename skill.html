@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SkillTrack – Skill Details</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="skill.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2 class="logo">SkillTrack</h2>
+
+  <nav class="nav-links">
+    <a href="home.html">Home</a>
+    <a href="career.html" class="active">Career Skills</a>
+    <a href="trending.html" class="active">Trending Skills</a>
+    <a href="about.html" class="active">About</a>
+  </nav>
+
+  <div class="nav-actions">
+    <button class="btn-outline">Sign in</button>
+    <button class="btn-primary">Sign Up</button>
+  </div>
+</header>
+
+
+<!-- ================= HERO ================= -->
+<section class="skill-hero">
+  <div class="skill-hero-grid">
+
+    <!-- CARD 1 : SKILL INFO -->
+    <div class="skill-hero-card">
+      <div class="hero-text">
+        <h1 id="skillTitle">Skill Name</h1>
+        <p id="skillDesc">Skill description</p>
+      </div>
+
+      <!-- IMAGE MUST STAY -->
+      <img id="skillLogo" class="hero-logo" />
+    </div>
+
+    <!-- CARD 2 : CTA -->
+    <div class="skill-hero-card secondary-card">
+      <h3>Want to explore more skills?</h3>
+      <p>
+        Discover trending and in-demand career paths
+        curated to boost your growth.
+      </p>
+
+      <a href="career.html">
+        <button class="btn-primary">Explore Career Skills</button>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ================= MAIN ================= -->
+<section class="skill-layout">
+
+  <!-- LEFT -->
+  <div class="left-col">
+
+    <div class="card">
+      <h3>Skill Stack</h3>
+
+      <!-- SKILLS + FRAMEWORKS -->
+      <div class="inner-card">
+        <h4>Skills & Frameworks</h4>
+        <ul id="stackList" class="skill-grid"></ul>
+      </div>
+
+      <!-- PROGRAMMING LANGUAGES -->
+      <div class="inner-card">
+        <h4>Programming Languages</h4>
+        <div class="lang-row">
+          <div><img src="assets/tech/cpp.png"> C++</div>
+          <div><img src="assets/tech/java.png"> Java</div>
+        </div>
+        <p class="muted">
+          Strong problem-solving & algorithmic foundation for DSA & interviews.
+        </p>
+      </div>
+    </div>
+
+    <!-- COMPANIES -->
+    <div class="card">
+      <h3>Companies Hiring</h3>
+      <div class="companies" id="companyLogos"></div>
+    </div>
+
+  </div>
+
+  <!-- RIGHT -->
+  <div class="right-col">
+
+    <div class="card">
+      <h3>DSA</h3>
+      <br>
+      <ul class="bullet">
+        <li>Data Structures</li>
+        <li>Algorithms</li>
+        <li>Problem Solving</li>
+      </ul>
+
+      <a href="https://leetcode.com" target="_blank" class="btn-link">
+        DSA Resources →
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Roadmap</h3>
+      <br>
+      <ul class="bullet">
+        <li>Learn basics & complexity</li>
+        <li>Practice on LeetCode & GFG</li>
+        <li>Follow structured playlists</li>
+        <li>Revise patterns</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Expected Package</h3>
+      <br>
+
+      <div class="salary-box">
+        <div>
+          <span>Average</span>
+          <h4>₹5,00,000 – ₹7,50,000</h4>
+          <p>p.a.</p>
+        </div>
+        <div class="rare">
+          <span>Rare</span>
+          <h4>₹9,00,000 – ₹11,50,000</h4>
+          <p>p.a.</p>
+        </div>
+      </div>
+      <br>
+
+      <p class="muted small">Varies by company & experience</p>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">© 2026 SkillTrack</footer>
+
+<script src="skill.js"></script>
+</body>
+</html>
+
